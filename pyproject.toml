@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unit-testing"
+version = "0.1.0"
+description = ""
+authors = ["Seongeun Yu <s3ich4n@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
