@@ -1,4 +1,5 @@
 from collections import namedtuple
+from typing import Optional
 
 
 Product = namedtuple("Product", "merch count")
@@ -28,10 +29,10 @@ class Store:
 
 class Customer:
     def __init__(self) -> None:
-        self.item: Product = None
+        self.item: Optional[Product] = None
 
+    @staticmethod
     def purchase(
-            self,
             store: Store,
             product: Product,
     ) -> bool:
