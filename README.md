@@ -1,4 +1,4 @@
-# 유닛 테스트 스터디
+# 단위 테스트 스터디
 
 [이 책](https://www.yes24.com/Product/Goods/104084175)을 읽고 스터디를 진행한다
 
@@ -25,6 +25,7 @@
 ## Prerequisites
 
 - [Poetry](https://python-poetry.org/)
+- [pyenv](https://github.com/pyenv/pyenv)
 
 ## 설치
 
