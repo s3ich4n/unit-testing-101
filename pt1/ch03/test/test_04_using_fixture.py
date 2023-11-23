@@ -56,9 +56,6 @@ def create_store_with_inventory():
 
 
 class TestCustomer:
-    store = Store(Product("Shampoo", 10))
-    sut = Customer()
-
     def test_purchase_succeeds_when_enough_inventory(self, data):
         store = data.get("store")
         sut = data.get("sut")
